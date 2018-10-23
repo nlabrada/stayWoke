@@ -12,18 +12,20 @@ body{
 
 }
 
-#start-btn{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
+img{
+    max-height: 350px;
+    max-width: auto;
 }
 
-.card{
-    height: 300px;
+#quizDiv{
+    color: black;
 }
 
-.answer-btn{
-    display: block;
-    margin-bottom: 1%;
+.btn{
+    background-color: black;
+    margin-left: 1%;
+}
+.btn:hover{
+    background-color: white;
+    color: black;
 }
