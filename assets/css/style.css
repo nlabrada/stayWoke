@@ -16,8 +16,8 @@ body{
     margin-top: 30%;
 }
 img{
-    max-height: 350px;
-    max-width: auto;
+    max-width: 50%;
+    max-height: auto;
 }
 #quizDiv{
     color: black;
