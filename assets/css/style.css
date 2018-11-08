@@ -1,3 +1,4 @@
+/* // mobile first */
 body{
     font-family: 'Kanit', sans-serif;
     color: white;
@@ -9,18 +10,19 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
+    margin-bottom: 40px;
 
 }
-
+#home-page-div{
+    margin-top: 30%;
+}
 img{
-    max-height: 350px;
-    max-width: auto;
+    max-width: 50%;
+    max-height: auto;
 }
-
 #quizDiv{
     color: black;
 }
-
 .btn{
     background-color: black;
     margin-left: 1%;
@@ -28,4 +30,12 @@ img{
 .btn:hover{
     background-color: white;
     color: black;
+}
+
+/* for desktop */
+@media only screen and (min-width: 768px) {
+    #home-page-div{
+        margin-top: 5%;
+    }
+    
 }
